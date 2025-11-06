@@ -1,0 +1,89 @@
+ <div class = "team-grid">
+                <div class = "team-card">
+                    <div class="card-top">
+                        <div class = "profile-bg"></div>
+                        <div class="profile-img">
+                        <img src = "https://randomuser.me/api/portraits/men/32.jpg" alt = "Team Member">
+                        </div>
+
+                        <h3>Alex Morgan</h3>
+                        <p class = "role">Founder & CEO</p>
+
+                    </div>
+                    <div class="card-bottom">
+                        <p class = "bio">
+                            Visionary leader with 15+ years of experience in tech innovation and business strategy.    
+                        </p>
+
+                        <div class = "social-links">
+                            <a href = "#" class = "social-icon"><i class = "fab fa-linkedin-in"></i></a>
+
+                            <a href = "#" class = "social-icon"><i class = "fab fa-twitter"></i></a>
+
+                            <a href = "#" class = "social-icon"><i class = "fab fa-github"></i></a>
+                        
+                        </div>
+
+                    </div>
+</div>
+
+
+:root {
+    --primary-color: #a78bfa;
+    --bg-dark: #1a1a1a;
+    --primary-dark: #8b5cf6;
+    --primary-light: #c4b5fd;
+    --primary-gradient: linear-gradient(135deg, #a78bfa, #8b5cf6);
+    --text-light: #f3f4f6;
+    --text-gray: #9ca3af;
+    --card-bg: #252525;
+    --card-hover: #2e2e2e;
+    --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 20px 25px rgba(0, 0, 0, 0.15);
+    --border-radius: 12px;
+    --border-light: rgba(255, 255, 255, 0.05);
+    --bg-overlay: rgba(255, 255, 255, 0.1);
+    --text-dark: #000;
+    --shadow-color-primary: rgba(139, 92, 246, 0.3);
+    --shadow-color-primary-hover: rgba(139, 92, 246, 0.4);
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: var(--text-light);
+    padding: 50px 15px;
+    line-height: 1.6;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
